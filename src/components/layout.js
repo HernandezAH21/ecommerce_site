@@ -5,7 +5,7 @@ class Layout extends Component {
     return (
       <div>
         <h1>ecom</h1>
-        {...this.props.children}
+        {this.props.children}
       </div>
     );
   }
