@@ -2,7 +2,6 @@ import {
     SET_HEADER_LINKS,
     SET_NAVBAR_LINKS
 } from '../actions/types';
-
 const INITIAL_STATE = {
     headerLinks: [
         {
@@ -14,10 +13,12 @@ const INITIAL_STATE = {
     ],
     navbarLinks: [
         {
-            title: 'account'
+            title: 'account',
+            active: true
         },
         {
-            title: 'purchases'
+            title: 'purchases',
+            active: false
         }
     ]
 }
