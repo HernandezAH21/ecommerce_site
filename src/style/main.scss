@@ -2,8 +2,6 @@
 html {
     font-size: 62.5%;
 }
-
-
 *,
 *::after,
 *::before {
@@ -11,18 +9,20 @@ html {
     padding: 0;
     box-sizing: inherit;
 }
-
 body {
     font-family: "Open Sans";
     color: #808080;
 }
-
-
 @import 'layout';
 @import 'headernavbar';
 @import 'auth/signin';
 @import 'auth/signup';
 
-@import 'page-title'; 
-@import 'form-fields'; 
+@import 'page-title';
+@import 'form-fields';
 @import 'details'; 
+@import 'details';
+
+@import 'account/account';
+@import 'account/purchase-history';
+@import 'account/account-information';
