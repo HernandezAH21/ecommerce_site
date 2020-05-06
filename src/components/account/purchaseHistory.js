@@ -1,7 +1,10 @@
+
 import React, { Component } from 'react';
+
 import PageTitle from '../pageTitle';
 import Purchases from './purchases';
 import PurchaseDetail from './purchaseDetail';
+
 class PurchaseHistory extends Component {
     render() {
         return (
@@ -16,4 +19,5 @@ class PurchaseHistory extends Component {
         )
     }
 }
+
 export default PurchaseHistory;

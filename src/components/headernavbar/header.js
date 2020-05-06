@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import history from '../../history';
 
 class Header extends Component {
-    
     render() {
         return (
             <div className='header'>

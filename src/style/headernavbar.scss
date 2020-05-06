@@ -1,3 +1,4 @@
+
 .header {
     grid-row: header-s/header-e;
     grid-column: 1/-1;
@@ -23,7 +24,7 @@
 
         color: #333;
         font-size: 16px;
-
+    
         & > * {
             grid-row: s/e;
         }
@@ -58,4 +59,4 @@
         grid-row: s/e;
     }
 
-} 
+}
